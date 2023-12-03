@@ -4,7 +4,7 @@ import Lab5 from "./lab5.js";
 import cors from "cors";
 import mongoose from "mongoose";
 import UserRoutes from "./users/routes.js";
-const CONNECTION_STRING = process.env.DB_CONNECTION_STRING || "mongodb+srv://zoe:<zoe123>@cluster0.4rtjpzu.mongodb.net/?retryWrites=true&w=majority"
+const CONNECTION_STRING = process.env.DB_CONNECTION_STRING || "mongodb+srv://zoe:zoe123@cluster0.4rtjpzu.mongodb.net/?retryWrites=true&w=majority"
 mongoose.connect(CONNECTION_STRING);
 // mongoose.connect("mongodb://127.0.0.1:27017/kanbas");
 import CourseRoutes from "./courses/routes.js";
